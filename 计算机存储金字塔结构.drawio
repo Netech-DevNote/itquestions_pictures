@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-17T09:28:17.956Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="6f9SAS6K_aDhPo8VM-A3" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-17T09:29:45.858Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="uzYde27S-wcIaCkC4tCl" version="21.6.2" type="github">
   <diagram name="第 1 页" id="jo37r0LTQQVGfIlVSVQu">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,7 +32,7 @@
           <mxGeometry x="414" y="431" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7EBY24ZoCq5tD4-30C8f-22" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="330" y="395" width="20" height="190" as="geometry" />
+          <mxGeometry x="330" y="400" width="20" height="190" as="geometry" />
         </mxCell>
         <mxCell id="7EBY24ZoCq5tD4-30C8f-23" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;集成在CPU内部&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="220" y="475" width="110" height="30" as="geometry" />
@@ -45,6 +45,12 @@
         </mxCell>
         <mxCell id="7EBY24ZoCq5tD4-30C8f-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7EBY24ZoCq5tD4-30C8f-26" target="7EBY24ZoCq5tD4-30C8f-26">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7EBY24ZoCq5tD4-30C8f-28" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="540" y="460" width="20" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7EBY24ZoCq5tD4-30C8f-29" value="Cache使用SRAM芯片" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="510" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
