@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-21T14:40:34.327Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="v7aenCSX7EOLh7ryj_gO" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-21T14:41:24.401Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="exR6WLf53FRFyGMoTugt" version="21.6.5" type="github">
   <diagram name="第 1 页" id="9e4_L4O91o0at85wGMyj">
     <mxGraphModel dx="733" dy="372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="320" y="180" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ChDLtsVOBxLUTJ7q2RNu-3" value="唤醒后台内存回收线程&lt;br style=&quot;font-size: 14px;&quot;&gt;kswapd(异步回收)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=23;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="315" y="352" width="130" height="60" as="geometry" />
+          <mxGeometry x="309" y="352" width="145" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ChDLtsVOBxLUTJ7q2RNu-4" value="有足够大的&lt;br style=&quot;font-size: 14px;&quot;&gt;空闲内存空间？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="320" y="474" width="120" height="110" as="geometry" />
