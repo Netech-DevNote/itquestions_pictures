@@ -1,11 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2023-07-21T00:44:04.141Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Nl0Oy7TtueIDo3r98SOd" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-21T00:52:03.229Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ETnGcVEk3UIIwpgRHUVe" version="21.6.2" type="github">
   <diagram name="第 1 页" id="nT0nqa7UZ7sfat42wuFn">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qzVQJbj-RXJHxWNp6LF4-1" value="write写文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="qzVQJbj-RXJHxWNp6LF4-1" value="write写文件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qzVQJbj-RXJHxWNp6LF4-2" value="向cache中写数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="203" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qzVQJbj-RXJHxWNp6LF4-3" value="将写入的cache页标记为dirty" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="330" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qzVQJbj-RXJHxWNp6LF4-4" value="将dirty的cache页加入到dirty list中" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="461" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qzVQJbj-RXJHxWNp6LF4-5" value="将dirty list中的cache页写回到磁盘" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="589" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qzVQJbj-RXJHxWNp6LF4-6" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="720" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qzVQJbj-RXJHxWNp6LF4-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="qzVQJbj-RXJHxWNp6LF4-1" target="qzVQJbj-RXJHxWNp6LF4-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qzVQJbj-RXJHxWNp6LF4-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="qzVQJbj-RXJHxWNp6LF4-2" target="qzVQJbj-RXJHxWNp6LF4-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qzVQJbj-RXJHxWNp6LF4-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="qzVQJbj-RXJHxWNp6LF4-3" target="qzVQJbj-RXJHxWNp6LF4-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qzVQJbj-RXJHxWNp6LF4-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="qzVQJbj-RXJHxWNp6LF4-4" target="qzVQJbj-RXJHxWNp6LF4-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="610" as="sourcePoint" />
+            <mxPoint x="440" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qzVQJbj-RXJHxWNp6LF4-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="qzVQJbj-RXJHxWNp6LF4-5" target="qzVQJbj-RXJHxWNp6LF4-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="610" as="sourcePoint" />
+            <mxPoint x="440" y="560" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
