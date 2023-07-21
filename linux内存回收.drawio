@@ -1,17 +1,122 @@
-<mxfile host="app.diagrams.net" modified="2023-07-21T13:42:20.174Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="H-81BBwzlDD5146ME8kh" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-21T14:40:24.158Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="hE4d0V3zLaZV9ZW1V8ol" version="21.6.5" type="github">
   <diagram name="第 1 页" id="9e4_L4O91o0at85wGMyj">
-    <mxGraphModel dx="880" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="733" dy="372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-1" value="分配物理内存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-1" value="分配物理内存" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="75" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-2" value="有足够大的内存空间？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="200" width="120" height="110" as="geometry" />
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-2" value="有足够大的&lt;br&gt;空闲内存空间？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="180" width="120" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-3" value="唤醒后台内存回收线程kswapd" style="rounded=1;whiteSpace=wrap;html=1;arcSize=23;" vertex="1" parent="1">
-          <mxGeometry x="330" y="360" width="120" height="60" as="geometry" />
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-3" value="唤醒后台内存回收线程&lt;br&gt;kswapd(异步回收)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=23;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="315" y="352" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-4" value="有足够大的&lt;br&gt;空闲内存空间？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="474" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-5" value="直接内存回收&lt;br&gt;（同步回收）" style="rounded=1;whiteSpace=wrap;html=1;arcSize=23;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="315" y="650" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-6" value="有足够大的&lt;br&gt;空闲内存空间？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="770" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-7" value="OOM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="320" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ChDLtsVOBxLUTJ7q2RNu-2" target="ChDLtsVOBxLUTJ7q2RNu-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="300" as="sourcePoint" />
+            <mxPoint x="450" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="350" as="sourcePoint" />
+            <mxPoint x="380.44" y="288.82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-14" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ChDLtsVOBxLUTJ7q2RNu-9">
+          <mxGeometry x="-0.0719" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-10" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ChDLtsVOBxLUTJ7q2RNu-4" target="ChDLtsVOBxLUTJ7q2RNu-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="460" as="sourcePoint" />
+            <mxPoint x="450" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-11" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="650" as="sourcePoint" />
+            <mxPoint x="379.58" y="584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-19" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ChDLtsVOBxLUTJ7q2RNu-11">
+          <mxGeometry x="0.3429" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ChDLtsVOBxLUTJ7q2RNu-6" target="ChDLtsVOBxLUTJ7q2RNu-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="880" as="sourcePoint" />
+            <mxPoint x="450" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-13" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ChDLtsVOBxLUTJ7q2RNu-7" target="ChDLtsVOBxLUTJ7q2RNu-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="960" as="sourcePoint" />
+            <mxPoint x="450" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-20" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ChDLtsVOBxLUTJ7q2RNu-13">
+          <mxGeometry x="-0.0542" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-15" value="分配内存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="510" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="ChDLtsVOBxLUTJ7q2RNu-2" target="ChDLtsVOBxLUTJ7q2RNu-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="300" as="sourcePoint" />
+            <mxPoint x="450" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-17" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ChDLtsVOBxLUTJ7q2RNu-16">
+          <mxGeometry x="-0.0517" y="-3" relative="1" as="geometry">
+            <mxPoint x="-41" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-21" value="分配内存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="510" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="ChDLtsVOBxLUTJ7q2RNu-4" target="ChDLtsVOBxLUTJ7q2RNu-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="630" as="sourcePoint" />
+            <mxPoint x="450" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-23" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ChDLtsVOBxLUTJ7q2RNu-22">
+          <mxGeometry x="0.0126" y="-3" relative="1" as="geometry">
+            <mxPoint x="-37" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-24" value="分配内存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="510" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="ChDLtsVOBxLUTJ7q2RNu-6" target="ChDLtsVOBxLUTJ7q2RNu-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="980" as="sourcePoint" />
+            <mxPoint x="450" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-26" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ChDLtsVOBxLUTJ7q2RNu-25">
+          <mxGeometry x="-0.2742" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
