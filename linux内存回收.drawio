@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-21T09:27:27.868Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="RTTeo0irKb6Xnyl3SY3z" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-21T13:42:20.174Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="H-81BBwzlDD5146ME8kh" version="21.6.5" type="github">
   <diagram name="第 1 页" id="9e4_L4O91o0at85wGMyj">
     <mxGraphModel dx="880" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6,6 +6,12 @@
         <mxCell id="1" parent="0" />
         <mxCell id="ChDLtsVOBxLUTJ7q2RNu-1" value="分配物理内存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-2" value="有足够大的内存空间？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="200" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ChDLtsVOBxLUTJ7q2RNu-3" value="唤醒后台内存回收线程kswapd" style="rounded=1;whiteSpace=wrap;html=1;arcSize=23;" vertex="1" parent="1">
+          <mxGeometry x="330" y="360" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
