@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-23T08:33:53.449Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="jqRWEBbgocvSZCsp2eOy" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-23T08:34:37.797Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="PTYbeylRFzfnB2fpqW91" version="21.6.5" type="github">
   <diagram name="第 1 页" id="2ua1LjIcxe17sO0WMqhI">
     <mxGraphModel dx="880" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,7 +56,7 @@
             <mxRectangle width="290" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RF_rzELjMY7xmStr51dX-13" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="RF_rzELjMY7xmStr51dX-10">
+        <mxCell id="RF_rzELjMY7xmStr51dX-13" value="释放掉slab,包括dentry、inode等" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="RF_rzELjMY7xmStr51dX-10">
           <mxGeometry x="390" width="330" height="66" as="geometry">
             <mxRectangle width="330" height="66" as="alternateBounds" />
           </mxGeometry>
@@ -74,7 +74,7 @@
             <mxRectangle width="290" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RF_rzELjMY7xmStr51dX-29" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="RF_rzELjMY7xmStr51dX-26">
+        <mxCell id="RF_rzELjMY7xmStr51dX-29" value="释放Cache和slab" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="RF_rzELjMY7xmStr51dX-26">
           <mxGeometry x="390" width="330" height="66" as="geometry">
             <mxRectangle width="330" height="66" as="alternateBounds" />
           </mxGeometry>
