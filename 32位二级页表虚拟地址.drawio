@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-29T10:10:25.759Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="cM5UG3BkGKXwdx0BAVAM" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-29T12:29:12.064Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="WDjORkozw4agexKTn2Jg" version="21.6.6" type="github">
   <diagram name="第 1 页" id="KKkO62RH176LLWH5jWOu">
     <mxGraphModel dx="880" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,6 +12,9 @@
         </mxCell>
         <mxCell id="-ZaLptZrlX2X9f9rPi4m-3" value="页内偏移量&lt;br&gt;12位" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="420" y="200" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ZaLptZrlX2X9f9rPi4m-5" value="虚拟地址A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="170" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
